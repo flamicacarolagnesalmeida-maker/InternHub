@@ -66,18 +66,3 @@ Add and manage performance feedback for interns.
 ### API Testing
 - Postman
 
-## Project Structure
-
-```text
-InternHub
-│
-├── frontend
-│   └── React files
-│
-├── backend
-│   ├── server.js
-│   ├── db.js
-│   ├── models
-│   └── routes
-│
-└── README.md
