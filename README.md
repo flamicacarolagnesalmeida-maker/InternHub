@@ -1,4 +1,4 @@
-# InternHub
+
 # InternHub
 
 InternHub is a full-stack internship management system designed to manage interns, tasks, projects, attendance, work reports, and feedback in one place.
