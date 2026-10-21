@@ -1,13 +1,13 @@
-const express= require('express');
-const app= require('express');
-const interns=require('.models/Intern');
-const Task = require('./models/Task');
-const Project = require('./models/Project');
-const Attendance = require('./models/Attendance');
-const WorkReport = require('./models/WorkReport');
-const Feedback = require('./models/Feedback');
-const cors= require('cors');
+const express = require('express');
+const cors = require('cors');
 const sequelize = require('./db');
+
+const Intern = require('./models/interns');
+const Task = require('./models/tasks');
+const Project = require('./models/projects');
+const Attendance = require('./models/attendence');
+const WorkReport = require('./models/work_reports');
+const Feedback = require('./models/feedback');
 
 app.use(expressjson());
 app.use(cors);
